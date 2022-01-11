@@ -20,6 +20,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "mongoose": "^6.1.6",
     "winston": "^3.4.0"
