@@ -26,14 +26,14 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.methods.generateAuthToken = function () {
-    return jwt.sign({_id: this._id, isAdmin: this.isAdmin}, config.get('jwtPrivateKey'));
+    return jwt.sign({_id: this._id}, config.get('jwtPrivateKey'));
 }
 
 const User = mongoose.model('User', userSchema);
 
 function validateUser(user) {
     const schema = {
-        name: Joi.string().min(5).max(50).matches(/[A-Za-z ]+/).required(),
+        name: Joi.string().min(5).max(50).required(),
         userId: Joi.string().min(5).max(255).required(),
         password: Joi.string().min(5).max(1024).required()
     };
