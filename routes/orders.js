@@ -40,9 +40,10 @@ router.post('/', auth, async (req, res) => {
 
         res.send(order);
     } catch (ex) {
-        console.log(ex);
         res.status(500).send('Something failed');
     }
 });
+
+//TODO: Input Validation
 
 module.exports = router;
