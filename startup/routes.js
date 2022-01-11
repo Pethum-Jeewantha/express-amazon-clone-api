@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2022 - present Pethum Jeewantha. All rights reserved.
+ *  Licensed under the MIT License. See LICENSE.txt in the project root for license information.
+ */
+
 const express = require('express');
 const items = require('../routes/items');
 const users = require('../routes/users');

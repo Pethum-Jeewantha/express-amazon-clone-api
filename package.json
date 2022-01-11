@@ -1,12 +1,15 @@
 {
   "name": "amazon-clone-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is backend api for my amazon clone front-end",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
+    "nodejs",
+    "mongodb",
+    "javascript",
     "amazon",
     "clone",
     "pethum",
