@@ -1,13 +1,16 @@
 const express = require('express');
 const router = express.Router();
 const Item = require('../models/item');
-const validateObjectId = require('../middleware/validateObjectId');
+const mongoose = require("mongoose");
 
 router.get('/', async (req, res) => {
     res.send(await Item.find().sort('_id'));
 });
 
-router.get('/:id', validateObjectId, async (req, res) => {
+router.get('/:id', async (req, res) => {
+    if (!mongoose.Types.ObjectId.isValid(req.params.id))
+        return res.status(404).send('Invalid Id');
+
     const item = await Item.findById(req.params.id);
     if (!item) return res.status(404).send('The item with the given ID is not exists');
 
