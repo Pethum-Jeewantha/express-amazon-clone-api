@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "amazon_jwtPrivateKey",
+  "db": "amazon_db"
+}
