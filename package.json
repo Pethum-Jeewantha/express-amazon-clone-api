@@ -1,0 +1,16 @@
+{
+  "name": "amazon-clone-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["amazon", "clone", "pethum", "jeewantha"],
+  "author": "Pethum Jeewantha",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1"
+  }
+}
