@@ -15,10 +15,12 @@
   "author": "Pethum Jeewantha",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "config": "^3.3.6",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "joi": "^17.5.0",
+    "lodash": "^4.17.21",
     "mongoose": "^6.1.6",
     "winston": "^3.4.0"
   }
