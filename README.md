@@ -44,7 +44,11 @@
 
 4. Add [dummy items](mongo.txt) for MongoDB.
 
-5. Finally, run npm start
+5. Add `amazon_jwtPrivateKey` using terminal or cmd.
+    1. Ubuntu -> `export amazon_jwtPrivateKey=<key>`
+    2. Windows -> `set amazon_jwtPrivateKey=<key>`
+
+6. Finally, run `npm start`
 
 ## Usage
 
