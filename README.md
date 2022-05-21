@@ -53,7 +53,7 @@
 ## Usage
 
 * You can use this when you need an API written by JS using Express. This is coded specifically for my amazon clone
-  front-end.
+  [Frontend](https://github.com/Pethum-Jeewantha/angular-amazon-clone-lite).
 
 ## License
 
