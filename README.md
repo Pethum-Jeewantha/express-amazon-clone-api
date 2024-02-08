@@ -63,7 +63,7 @@ Licensed under the [MIT](LICENSE.txt) license.
 
 ## Contact
 
-Pethum Jeewantha - [Twitter](https://twitter.com/JeewanthaPethum?s=08) - pethumjeewantha4@gmail.com
+Pethum Jeewantha - [Twitter](https://twitter.com/JeewanthaPethum?s=08) - me@pethumjeewantha.com
 
 [Project](https://github.com/Pethum-Jeewantha/express-amazon-clone-api)
 
